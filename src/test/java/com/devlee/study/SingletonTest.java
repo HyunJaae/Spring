@@ -1,9 +1,8 @@
 package com.devlee.study;
 
-import com.devlee.study.Impl.MemberServiceImpl;
-import com.devlee.study.config.AppConfig;
-import com.devlee.study.service.MemberService;
-import com.devlee.study.service.SingletonService;
+import com.devlee.study.singleton.config.AppConfig;
+import com.devlee.study.singleton.service.MemberService;
+import com.devlee.study.singleton.service.SingletonService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

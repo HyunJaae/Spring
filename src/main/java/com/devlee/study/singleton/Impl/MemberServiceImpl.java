@@ -1,8 +1,8 @@
-package com.devlee.study.Impl;
+package com.devlee.study.singleton.Impl;
 
-import com.devlee.study.repository.MemberRepository;
-import com.devlee.study.repository.MemoryMemberRepository;
-import com.devlee.study.service.MemberService;
+import com.devlee.study.singleton.repository.MemberRepository;
+import com.devlee.study.singleton.repository.MemoryMemberRepository;
+import com.devlee.study.singleton.service.MemberService;
 
 public class MemberServiceImpl extends MemberService {
     public MemberServiceImpl(MemoryMemberRepository memberRepository) {
