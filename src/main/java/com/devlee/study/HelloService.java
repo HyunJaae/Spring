@@ -1,8 +1,11 @@
 package com.devlee.study;
 
+import org.springframework.stereotype.Component;
+
 import javax.annotation.PostConstruct;
 
-public class Hello {
+@Component
+public class HelloService {
 
     @PostConstruct
     public void printHello() {

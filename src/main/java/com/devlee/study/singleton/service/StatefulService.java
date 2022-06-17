@@ -1,4 +1,4 @@
-package com.devlee.study.service;
+package com.devlee.study.singleton.service;
 
 public class StatefulService {
     private int price; //상태를 유지하는 필드
