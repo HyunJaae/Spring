@@ -1,7 +1,8 @@
 package com.devlee.study.model;
 
-import lombok.*;
-import org.springframework.data.util.Lazy;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
