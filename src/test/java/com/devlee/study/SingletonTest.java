@@ -12,7 +12,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-public class SingletonTest {
+class SingletonTest {
     // 객체 요청 때마다 새로 생성하는 문제점을 가진다.
     @Test
     @DisplayName("스프링이 없는 순수한 DI 컨테이너")

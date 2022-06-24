@@ -10,13 +10,13 @@ public class MadPlayService {
 //    @Autowired
 //    private MadLifeService madLifeService;
 
-    private final MadLifeService madLifeService;
-
-    public MadPlayService(MadLifeService madLifeService) {
-        this.madLifeService = madLifeService;
-    }
-
-    public void sayMadPlay() {
-        madLifeService.sayMadLife();
-    }
+//    private final MadLifeService madLifeService;
+//
+//    public MadPlayService(MadLifeService madLifeService) {
+//        this.madLifeService = madLifeService;
+//    }
+//
+//    public void sayMadPlay() {
+//        madLifeService.sayMadLife();
+//    }
 }

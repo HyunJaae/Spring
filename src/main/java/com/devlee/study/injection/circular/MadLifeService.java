@@ -16,7 +16,7 @@ public class MadLifeService {
         this.madPlayService = madPlayService;
     }
 
-    public void sayMadLife() {
-        madPlayService.sayMadPlay();
-    }
+//    public void sayMadLife() {
+//        madPlayService.sayMadPlay();
+//    }
 }

@@ -14,9 +14,10 @@ import java.util.List;
 
 @Entity
 @Getter
-@Setter  // 불변성 보장이 어렵다.
+@Setter // 불변성 보장이 어렵다.
 @RequiredArgsConstructor
-@Table(name = "order") // 테이블, 컬럼명 생성 전략 (대문자 -> 소문자)
+// 테이블 명을 orders 로 한 이유는 order 라는 단어는 "ORDER BY"의 예약어이기 때문에 drop table if exists order CASCADE 에러를 발생 시킴
+@Table(name = "orders") // 테이블, 컬럼명 생성 전략 (대문자 -> 소문자)
 public class Order {
 
     @Id
