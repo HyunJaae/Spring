@@ -1,5 +1,7 @@
-package com.devlee.study.injection.circular;
+package com.devlee.study.injection;
 
+import com.devlee.study.injection.circular.MadLifeService;
+import com.devlee.study.injection.circular.MadPlayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,8 +17,8 @@ public class CircularRun implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        madPlayService.sayMadPlay();
-        madLifeService.sayMadLife();
+//        madPlayService.sayMadPlay();
+//        madLifeService.sayMadLife();
     }
 
     public static void main(String[] args) {
