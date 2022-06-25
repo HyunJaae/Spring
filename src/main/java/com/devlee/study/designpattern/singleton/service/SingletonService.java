@@ -1,4 +1,4 @@
-package com.devlee.study.singleton.service;
+package com.devlee.study.designpattern.singleton.service;
 
 public class SingletonService {
     //static 객체라서 클래스레벨로 딱 한개만 생성된다.

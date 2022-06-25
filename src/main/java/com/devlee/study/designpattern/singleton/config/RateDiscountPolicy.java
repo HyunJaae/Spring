@@ -1,4 +1,4 @@
-package com.devlee.study.singleton.config;
+package com.devlee.study.designpattern.singleton.config;
 
 public class RateDiscountPolicy extends DiscountPolicy {
 }

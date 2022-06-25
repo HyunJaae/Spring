@@ -1,6 +1,6 @@
 package com.devlee.study.service;
 
-import com.devlee.study.singleton.service.StatefulService;
+import com.devlee.study.designpattern.singleton.service.StatefulService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;

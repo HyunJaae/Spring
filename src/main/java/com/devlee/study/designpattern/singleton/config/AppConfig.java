@@ -1,10 +1,10 @@
-package com.devlee.study.singleton.config;
+package com.devlee.study.designpattern.singleton.config;
 
-import com.devlee.study.singleton.Impl.MemberServiceImpl;
-import com.devlee.study.singleton.Impl.OrderServiceImpl;
-import com.devlee.study.singleton.repository.MemoryMemberRepository;
-import com.devlee.study.singleton.service.MemberService;
-import com.devlee.study.singleton.service.OrderService;
+import com.devlee.study.designpattern.singleton.Impl.MemberServiceImpl;
+import com.devlee.study.designpattern.singleton.Impl.OrderServiceImpl;
+import com.devlee.study.designpattern.singleton.service.MemberService;
+import com.devlee.study.designpattern.singleton.service.OrderService;
+import com.devlee.study.designpattern.singleton.repository.MemoryMemberRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
