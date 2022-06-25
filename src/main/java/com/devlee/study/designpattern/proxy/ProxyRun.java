@@ -1,4 +1,4 @@
-package com.devlee.study.proxy;
+package com.devlee.study.designpattern.proxy;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
